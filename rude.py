@@ -4,15 +4,7 @@ from streamlit_option_menu import option_menu
 from PIL import Image
 import google.generativeai as genai  # Ensure you have this API initialized properly for generating responses.
 
-from gemini_utility import (
-    load_gemini_pro_model,
-    gemini_pro_response,
-    configure_genai,
-    gemini_flash_text_extraction,
-    gemini_pro_missing_word,
-    generate_questions,
-    generate_blog
-)
+
 
 # Set working directory
 working_directory = os.path.dirname(os.path.abspath(__file__))
