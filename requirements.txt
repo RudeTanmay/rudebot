@@ -1,0 +1,6 @@
+google-generativeai
+pillow
+streamlit
+streamlit-option-menu
+youtube_transcript_api
+pathlib
