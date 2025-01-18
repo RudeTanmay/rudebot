@@ -138,7 +138,7 @@ def initialize_session_state():
         st.session_state.message_count = 0
 
 # Configure API key and model
-API_KEY = "AIzaSyACvCC-icCESWi9VL8gCLaAAE-iNUsNqmQ"  # Set your API key here
+API_KEY = "AIzaSyBeYLrIFqlKla7766kdDKR097tc81IuLkE"  # Set your API key here
 genai.configure(api_key=API_KEY)
 gemini_pro_model = genai.GenerativeModel("gemini-pro")
 
