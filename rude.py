@@ -140,7 +140,7 @@ def initialize_session_state():
 # Configure API key and model
 API_KEY = "AIzaSyBVf9iH10FG7Gj0HjuuQGXfn_pFOymlqjA"  # Set your API key here
 genai.configure(api_key=API_KEY)
-gemini_pro_model = genai.GenerativeModel("gemini-pro")
+gemini_pro_model = genai.GenerativeModel("gemini-1.5-pro")
 
 def main():
     initialize_session_state()
